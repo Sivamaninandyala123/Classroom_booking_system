@@ -1,0 +1,85 @@
+.navbar {
+  background-color: lightgreen;
+  padding: 1em;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.navbar-nav .nav-item {
+  display: inline;
+  margin-right: 0.5em;
+  font-size: 20px;
+  
+  
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color:green;
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: green;
+}
+
+.dropdown-menu {
+  background-color: green;
+  border: none;
+}
+
+.dropdown-item {
+  color: #0c0c0c !important;
+  background-color: aliceblue;
+}
+
+.dropdown-item:hover {
+  background-color: green;
+}
+
+.form-control {
+  background-color: #555;
+  color: white;
+  border: 1px solid #444;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex .form-control {
+  background-color: white;
+  border: 1px solid #555;
+  width: 300px;
+}
+
+.view-bookings-link {
+  color:white !important;
+  
+}
+
+.view-bookings-link:hover {
+  background-color: green;
+  border-radius: 6px;
+}
+.nav-link .view-bookings-link{
+  font-size: 50px;
+}
